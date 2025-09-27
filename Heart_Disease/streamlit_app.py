@@ -2,7 +2,7 @@ import streamlit as st
 import pickle
 import json
 
-with open("Heart_Disease_model.pkl","rb")as f:
+with open("Heart_Disease/Heart_Disease_model.pkl","rb")as f:
     model=pickle.load(f)
 with open("scaler.pkl","rb")as f:
     scaler=pickle.load(f)
